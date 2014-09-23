@@ -52,7 +52,7 @@ public class Server {
 
 
         } catch (Exception e) {
-            System.out.println("Fail to authenticate, please validate your user name and password");
+            System.out.println("Failed to authenticate, please validate your user name and password.\n"+e.getMessage());
             System.exit(0);
         }
 

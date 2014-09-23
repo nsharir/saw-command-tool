@@ -1,10 +1,7 @@
 package com.hp.maas;
 
 import com.hp.maas.apis.Server;
-import com.hp.maas.commands.Command;
-import com.hp.maas.commands.DoApprovalForChangeCmd;
-import com.hp.maas.commands.QuiteCmd;
-import com.hp.maas.commands.ShowApprovalsForChangeCmd;
+import com.hp.maas.commands.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +22,7 @@ public class Main {
 
         if (args.length != 3){
             System.out.println("Please use the following format: SAW [user] [password] [tenant]");
-            System.out.println("For example: SAW user@email.com myPass 1111111");
+            System.out.println("For example: user@email.com myPass 1111111");
             System.exit(0);
         }
 
@@ -38,12 +35,14 @@ public class Main {
         commandsMap.put("1",new ShowApprovalsForChangeCmd(server));
         commandsMap.put("2",new DoApprovalForChangeCmd(server, DoApprovalForChangeCmd.ACTION.approve));
         commandsMap.put("3",new DoApprovalForChangeCmd(server, DoApprovalForChangeCmd.ACTION.deny));
+        commandsMap.put("4",new DoTaskForChangeCmd(server));
         commandsMap.put("q",new QuiteCmd());
 
         while(run){
             System.out.println("Press '1' in order to view the approval status of a change.");
             System.out.println("Press '2' in order to approve a change.");
             System.out.println("Press '3' in order to deny a change.");
+            System.out.println("Press '4' in order to complete a change task.");
             System.out.println("Press 'q' in order to quite.");
 
 
