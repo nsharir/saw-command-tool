@@ -19,16 +19,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbe5260c-6e10-4858-8a43-c7ca3155fa72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hp/maas/commands/DoTaskForChangeCmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hp/maas/Main.java" afterPath="$PROJECT_DIR$/src/com/hp/maas/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hp/maas/utils/ConnectionUtils.java" afterPath="$PROJECT_DIR$/src/com/hp/maas/utils/ConnectionUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MaaS REST.iml" afterPath="$PROJECT_DIR$/MaaS REST.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hp/maas/apis/Server.java" afterPath="$PROJECT_DIR$/src/com/hp/maas/apis/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MaaS REST.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411457163474" ignored="false" />
-    <file path="/fragment.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411458063440" ignored="false" />
-    <file path="/Server.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411457926479" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411458069289" ignored="false" />
+    <file path="/Dummy.txt" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411914071258" ignored="false" />
+    <file path="/fragment.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411914140889" ignored="false" />
+    <file path="/Server.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411913535654" ignored="false" />
+    <file path="/ConnectionUtils.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411913354341" ignored="false" />
+    <file path="/a.dummy" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411913928261" ignored="false" />
+    <file path="$PROJECT_DIR$/../saw-rest-tool/.idea/workspace.xml" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411914167259" ignored="false" />
+    <file path="$PROJECT_DIR$/../saw-rest-tool/src/com/hp/maas/Main.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411914050049" ignored="false" />
+    <file path="$PROJECT_DIR$/../saw-rest-tool/src/com/hp/maas/utils/ConnectionUtils.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411913920356" ignored="false" />
+    <file path="$PROJECT_DIR$/../saw-rest-tool/src/com/hp/maas/apis/Server.java" changelist="fbe5260c-6e10-4858-8a43-c7ca3155fa72" time="1411913948090" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +114,7 @@
       <file leaf-file-name="DoTaskForChangeCmd.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hp/maas/commands/DoTaskForChangeCmd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="31" selection-start="523" selection-end="541" vertical-scroll-proportion="0.0">
+            <state line="27" column="34" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +123,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hp/maas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="24" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
+            <state line="29" column="21" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#840#857#0" expanded="true" />
               </folding>
@@ -125,10 +131,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hp/maas/apis/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="53" selection-start="1496" selection-end="1496" vertical-scroll-proportion="1.2393292">
+            <state line="121" column="5" selection-start="3666" selection-end="3666" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionUtils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hp/maas/utils/ConnectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="45" selection-start="689" selection-end="689" vertical-scroll-proportion="0.57012194">
               <folding />
             </state>
           </provider>
@@ -165,6 +180,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/hp/maas/commands/DoTaskForChangeCmd.java" />
         <option value="$PROJECT_DIR$/src/com/hp/maas/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/hp/maas/utils/ConnectionUtils.java" />
         <option value="$PROJECT_DIR$/src/com/hp/maas/apis/Server.java" />
       </list>
     </option>
@@ -229,11 +245,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../saw-rest-tool" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -347,8 +364,8 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.hp.maas.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="nadav.sharir@hp.com ****** 733658382" />
+      <option name="VM_PARAMETERS" value="-DproxyServerAddress=web-proxy.isr.hp.com -DproxyServerPort=8080" />
+      <option name="PROGRAM_PARAMETERS" value="nadav.sharir@hp.com MarcoPolo123 *******" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -392,6 +409,7 @@
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32940018" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39921337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -412,7 +430,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -493,14 +510,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hp/maas/commands/DoTaskForChangeCmd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="523" selection-end="541" vertical-scroll-proportion="0.0">
+        <state line="27" column="34" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hp/maas/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
+        <state line="29" column="21" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#840#857#0" expanded="true" />
           </folding>
@@ -509,7 +526,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hp/maas/apis/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="53" selection-start="1496" selection-end="1496" vertical-scroll-proportion="1.2393292">
+        <state line="121" column="5" selection-start="3666" selection-end="3666" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hp/maas/utils/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="689" selection-end="689" vertical-scroll-proportion="0.57012194">
           <folding />
         </state>
       </provider>
